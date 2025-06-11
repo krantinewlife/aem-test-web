@@ -5,7 +5,7 @@ export default async function decorate(block) {
   const heroImge = heroImgBlock.querySelector('picture');
   console.log(heroImge + "hi");
   const container = document.createElement('div');
-    container.classList.add('hero-container');
+    container.classList.add('hero-container-test');
     heroImge.classList.add("hero-image");
     container.appendChild(heroImge);
 }
