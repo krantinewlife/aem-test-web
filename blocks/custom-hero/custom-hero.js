@@ -8,4 +8,8 @@ export default async function decorate(block) {
     container.classList.add('hero-container-test');
     heroImge.classList.add("hero-image");
     container.appendChild(heroImge);
+
+block.textContent = '';
+block.appendChild(container);
+
 }
